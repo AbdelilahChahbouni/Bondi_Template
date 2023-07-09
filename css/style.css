@@ -1,0 +1,165 @@
+/* global rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "cairo" , sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.landing-section {
+    width: 100%;
+    background-color: green;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+
+  /* Start Header Style */
+
+  .header {
+    background-color: #19283F;
+  }
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #19283F;
+}
+
+.header .container .logo img {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    margin-right: 15px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+.navbar ul li:hover a{
+  color: #33D1CC;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.10s;
+
+}
+
+.search i {
+  color: #33D1CC;
+  font-size: 12px;
+  font-weight: 700;
+  border-left: solid 1px #33D1CC;
+  padding-left: 15px;
+  padding-right: 10px;
+  
+}
+
+.search a {
+  background-color: #fd3150;
+  color: #fdc200;
+  padding: 7px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+  /* End Header Style */
+
+/* Start landing Style */
+.landing {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #19283F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .content {
+  text-align: center;
+}
+
+.landing .content h1 {
+  color: white;
+  font-size: 25px;
+  font-size: 700;
+  margin-bottom: 15px;
+}
+
+.landing .content p {
+  font-size: 10px;
+  color:rgba(255,255,255,.5);
+  font-weight: 600;
+}
+
+.landing .content a {
+  color: #fdc200;
+  background-color: #fd3150;
+  border-radius: 15px;
+  padding: 8px 10px;
+  display:inline-block;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+/* End Landing Style */
