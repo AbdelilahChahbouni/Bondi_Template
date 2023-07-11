@@ -156,10 +156,60 @@ ul {
   font-size: 14px;
 }
 
-
-
-
-
-
-
 /* End Landing Style */
+
+/* Start Style WE Are Good */
+.we-are-good {
+  background-color: white;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.we-are-good .title {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.we-are-good .title img {
+  width: 50px;
+  padding-bottom: 20px;
+  
+}
+
+.we-are-good .title h2 {
+  padding-bottom: 10px;
+}
+
+.we-are-good .title p {
+  color: rgba(0,0,0,.5);
+  position: relative;
+}
+
+.we-are-good .title p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Style We Are Good */
