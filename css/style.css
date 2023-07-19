@@ -228,16 +228,85 @@ ul {
   line-height: 1.6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* End Style We Are Good */
+
+/* Start Style We Make This */
+
+.we-make-this {
+  padding-top: 80px;
+  padding-bottom : 80px;
+  background-color: #EFF7FA;
+}
+.we-make-this .title {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.we-make-this .title img {
+  width: 50px;
+  padding-bottom: 20px;
+  
+}
+
+.we-make-this .title h2 {
+  padding-bottom: 10px;
+}
+
+.we-make-this .title p {
+  color: rgba(0,0,0,.5);
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.we-make-this .title p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 50%;
+  height: 2px;
+  background-color: green;
+
+}
+
+.we-make-this .list {
+  margin-top: 20px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.we-make-this .list ul li {
+  display: inline-block;
+  margin-bottom: 40px;
+
+
+}
+
+.we-make-this .list ul li:not(:first-child) {
+  padding-left: 15px;
+} 
+
+.we-make-this .list ul li:first-child {
+  color:#fdc200;
+  background-color: #fd3150;
+  padding: 7px 10px;
+  border-radius: 15px;
+} 
+
+.gallry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+
+}
+
+.gallry .container-img img {
+  width: 100%;
+}
+
+
+
+/* End Style We Make This */
